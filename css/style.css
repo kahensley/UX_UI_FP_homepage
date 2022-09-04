@@ -1,0 +1,196 @@
+@media only screen and (max-width: 1000px) {
+    #navigation {
+      display: none;
+    }
+  
+    .icons {
+      margin-left: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #headline {
+      position: static;
+      margin: 20px;
+    }
+    #heroGrid {
+      grid-template-areas: "featuredProduct featured Product"
+      "secondaryProduct CTA";
+    }
+    #categoryGrid {
+      grid-template-rows: 300px 300px 300px 300px 300px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: "bookcases" 
+      "bedroom" 
+      "patio" 
+      "couches" 
+      "desks";
+    }
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h5.card-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+p.card-text {
+  font-size: 24px;
+}
+
+.display-4 {
+  font-weight: 700;
+  text-shadow: 2px 2px 3px #828282;
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: #40A541;
+  border-color: #40A541;
+}
+
+.btn-link {
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: black;
+  font-size: 14px;
+
+}
+
+.btn:focus, .btn:hover {
+  background-color: #318432;
+  border-color: #318432;
+  
+}
+
+  .customNav {
+    position: fixed;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+  .nav-item:focus, .nav-item:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    
+  }
+  
+  .customNav a {
+    color: white !important;
+  }
+  
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  .jumbotron {
+    background-image: url(../images/saguaromonsoonclouds-darker.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .jumboCopy {
+    width: 100%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  div.card-body {
+    background-color: #e7e4de;
+  }
+  
+  
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+  } 
+  .cardContainer {
+    margin-top: 20px;
+    
+  }
+  .card {
+    margin: 0 auto;
+  }
+  
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .showsNear {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .sideAccent {
+    background: #007bff;
+    width: 15px;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  .emailContain {
+    background: url(../images/emailBG.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  form {
+    width: 500px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #F2F2F2;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
