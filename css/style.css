@@ -6,6 +6,15 @@
     .icons {
       margin-left: auto;
     }
+
+    .content {
+      width: 100%;
+    }
+
+    p.card-text-mainProject {
+      padding: 0 0 3px 0;
+    }
+  
   }
   
   @media only screen and (max-width: 768px) {
@@ -26,10 +35,24 @@
       "couches" 
       "desks";
     }
+
+    .content {
+      width: 100%;
+    }
+
+    p.card-text-mainProject {
+      padding: 0 0 3px 0;
+    }
   }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
+}
+
+h2.sectionHeading {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 h5.card-title {
@@ -45,6 +68,12 @@ p.card-text {
   font-size: 24px;
 }
 
+p.card-text-mainProject {
+  font-size: 24px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
 .display-4 {
   font-weight: 700;
   text-shadow: 2px 2px 3px #828282;
@@ -54,6 +83,7 @@ p.card-text {
   text-transform: uppercase;
   background-color: #40A541;
   border-color: #40A541;
+  font-family: 'Raleway', sans-serif;
 }
 
 .btn-link {
@@ -61,7 +91,7 @@ p.card-text {
   text-transform: uppercase;
   text-decoration: underline;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
 
 }
 
@@ -128,7 +158,10 @@ p.card-text {
 
   div.card-body {
     background-color: #e7e4de;
+    
   }
+
+  
   
   
   footer {
@@ -141,25 +174,23 @@ p.card-text {
   } 
   .cardContainer {
     margin-top: 20px;
+    border: 3px solid red;
+    text-align: center;
     
   }
-  .card {
-    margin: 0 auto;
-  }
+  
   
   .content {
-    padding: 50px;
-  }
-  .sectionHeading {
-    text-align: center;
-  }
-  .showsNear {
-    padding: 0px 30px 30px 30px;
-  }
-  .cardContainer {
-    text-align: center;
+    padding: 80px 140px 0 140px;
+    margin: 0;
   }
   
+  .sectionHeading {
+    text-align: center;
+    width: 100%;
+  }
+ 
+
   .valueProp {
     margin-top: 15px;
     margin-bottom: 15px;
