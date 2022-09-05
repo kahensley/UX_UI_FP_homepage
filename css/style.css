@@ -12,12 +12,13 @@
     }
 
     p.card-text-mainProject {
-      padding: 0 0 3px 0;
+      width: 100%;
+      
     }
   
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1200px) {
     #headline {
       position: static;
       margin: 20px;
@@ -40,8 +41,19 @@
       width: 100%;
     }
 
+    div.container-fluid {
+      width: 100%;
+      padding: 0;
+    }
+
     p.card-text-mainProject {
-      padding: 0 0 3px 0;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      width: 100%;
+    }
+
+    .full {
+      padding: 55px;
     }
   }
 
@@ -72,6 +84,14 @@ p.card-text-mainProject {
   font-size: 24px;
   padding-left: 90px;
   padding-right: 90px;
+}
+
+p.sectionHeadingIntroText {
+  font-size: 32px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+ 
 }
 
 .display-4 {
@@ -161,9 +181,10 @@ p.card-text-mainProject {
     
   }
 
-  
-  
-  
+  .container-fluid {
+    margin-bottom: 100px;
+  }
+ 
   footer {
     position: absolute;
     width: 100%;
@@ -174,7 +195,6 @@ p.card-text-mainProject {
   } 
   .cardContainer {
     margin-top: 20px;
-    border: 3px solid red;
     text-align: center;
     
   }
@@ -182,29 +202,46 @@ p.card-text-mainProject {
   
   .content {
     padding: 80px 140px 0 140px;
-    margin: 0;
+   
+    
   }
+
+
   
+.full {
+  background-color: #C4CFC8;
+  padding: 40px;
+  
+}
+
+
+
   .sectionHeading {
     text-align: center;
     width: 100%;
   }
  
 
-  .valueProp {
-    margin-top: 15px;
-    margin-bottom: 15px;
+  .visitPark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
   }
-  .sideAccent {
-    background: #007bff;
-    width: 15px;
-  }
+
   .imageContainer {
-    padding: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
   }
+
   .imageContainer img {
     width: 100%;
   }
+
   .emailContain {
     background: url(../images/emailBG.jpg);
     background-size: cover;
