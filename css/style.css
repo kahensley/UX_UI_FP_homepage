@@ -19,23 +19,7 @@
   }
   
   @media only screen and (max-width: 1200px) {
-    #headline {
-      position: static;
-      margin: 20px;
-    }
-    #heroGrid {
-      grid-template-areas: "featuredProduct featured Product"
-      "secondaryProduct CTA";
-    }
-    #categoryGrid {
-      grid-template-rows: 300px 300px 300px 300px 300px;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-areas: "bookcases" 
-      "bedroom" 
-      "patio" 
-      "couches" 
-      "desks";
-    }
+  
 
     .content {
       width: 100%;
@@ -56,11 +40,22 @@
       padding: 55px;
     }
 
-   
+    .contactUs {
+      width: 100%;
+      display: flex;
+      flex-direction: column !important;
+      align-items: center;
+    }
+    
+   .card-body-ContactUs {
+    width: 500px !important;
+   }
 
   }
 
-h1, h2, h3, h4, h5, h6 {
+
+
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -104,9 +99,10 @@ p.sectionHeadingIntroText {
  
 }
 
-.display-4 {
+.display-10 {
   font-weight: 700;
-  text-shadow: 2px 2px 3px #828282;
+  font-size: 85px;
+  
 }
 
 .btn {
@@ -167,23 +163,31 @@ p.sectionHeadingIntroText {
   }
   
   .jumbotron {
-    background-image: url(../images/saguaromonsoonclouds-darker.jpg);
+    background-image: url(../images/saguaromonsoonclouds-whitebg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
-    height: calc(100vh - 25px);
+    height: calc(130vh - 25px);
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    margin-bottom: 0px;
   
   }
   .jumboCopy {
     width: 100%;
     min-width: 500px;
-    max-width: 700px;
+    max-width: 1000px;
     color: white;
     text-align: center;
     font-weight: 700;
+    text-shadow: 2px 2px 25px #3f3f3f;
+  }
+
+  .hero__wrapper {
+    min-width: 500px;
+    max-width: 1000px;
   }
 
   div.card-body {
@@ -221,7 +225,7 @@ p.sectionHeadingIntroText {
   
   
   .content {
-    padding: 80px 140px 0 140px;
+    padding: 70px 140px 0 140px;
    
   }
  
