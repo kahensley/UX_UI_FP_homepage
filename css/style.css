@@ -54,13 +54,13 @@
    .flex-grid-footer {
     display: flex;
     flex-direction: column !important;
-    border: 3px solid purple;
+    
     align-items: center;
 
   }
 
   .col {
-    border: 3px solid green !important;
+    
     width: 100%;
 
 
@@ -405,7 +405,7 @@ p.sectionHeadingIntroText {
     align-items: start;
     padding: 25px;
     margin: 20px;
-    border: 3px solid red;
+    
     
   }
 
