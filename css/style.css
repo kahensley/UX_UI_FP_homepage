@@ -12,8 +12,11 @@
     }
 
     p.card-text-mainProject {
+      width: 100%;   
+    }
+
+    .hero__wrapper {
       width: 100%;
-      
     }
   
   }
@@ -22,6 +25,10 @@
   
 
     .content {
+      width: 100%;
+    }
+
+    .hero__wrapper {
       width: 100%;
     }
 
@@ -54,37 +61,29 @@
    .flex-grid-footer {
     display: flex;
     flex-direction: column !important;
-    
     align-items: center;
 
   }
 
   .col {
-    
     width: 100%;
-
 
   }
 
   footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  
-    
   }
 
   .newsEvents {
-  
     min-height: calc(100vh - 95px);
-
   }
 
   }
 
 
 
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 
