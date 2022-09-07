@@ -18,7 +18,11 @@
     .hero__wrapper {
       width: 100%;
     }
-  
+
+    .jumboCopy {
+      width: 100%;
+    }
+
   }
   
   @media only screen and (max-width: 1200px) {
@@ -29,6 +33,14 @@
     }
 
     .hero__wrapper {
+      width: 100% !important;
+    }
+
+    .jumbotron {
+      width: 100%;
+    }
+
+    .jumboCopy {
       width: 100%;
     }
 
